@@ -248,7 +248,7 @@
             </p:dialog> 
             
             
-             <p:dialog id="modalEliminarCorredor" header="Eliminar Corredor" widgetVar="dlgEliminarCorredor" 
+             <p:dialog id="modalEliminarCorredor" header="Eliminar Piloto" widgetVar="dlgEliminarCorredor" 
                       modal="true" height="100">
                 <p:panel id="panelEliminarCorredor">
                     <h:panelGrid columns="2">
@@ -279,9 +279,9 @@
                         <h:outputText rendered="#{sesionPiloto.pilotoDiagrama.genero}" value="Masculino" />
                         <h:outputText rendered="#{!sesionPiloto.pilotoDiagrama.genero}" value="Femenino" />
                     </h:panelGrid>
-                    <p:commandButton value="adelantar posicion" action="#{sesionPiloto}"/>
-                    <p:commandButton value="perder posicion" action="#{sesionPiloto}"/>
-                    <p:commandButton value="cancelar" onclick="PF('dlgEliminarCorredor').hid();"/>
+                    <p:commandButton value="Adelantar posicion" action="#{sesionPiloto}"/>
+                    <p:commandButton value="Perder posicion" action="#{sesionPiloto}"/>
+                    <p:commandButton value="Cancelar" onclick="PF('dlgEliminarCorredor').hid();"/>
                 </p:panel>
             </p:dialog> 
             

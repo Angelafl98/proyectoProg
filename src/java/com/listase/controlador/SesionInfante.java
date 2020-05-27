@@ -68,11 +68,11 @@ public class SesionInfante implements Serializable {
         
         listaInfantes = new ListaSE();        
         //LLenado de la bds
-        listaInfantes.adicionarNodo(new Infante("Carlitos",(short) 1, (byte)2, true,
+        listaInfantes.adicionarNodo(new Infante("Pedro",(short) 1, (byte)2, true,
                 controlLocalidades.getCiudades().get(0).getNombre()));
-        listaInfantes.adicionarNodo(new Infante("Juanita",(short) 2, (byte)3, false,
+        listaInfantes.adicionarNodo(new Infante("Miriam",(short) 2, (byte)3, false,
         controlLocalidades.getCiudades().get(3).getNombre()));
-        listaInfantes.adicionarNodo(new Infante("Martina",(short) 3, (byte)1,false,
+        listaInfantes.adicionarNodo(new Infante("Memo",(short) 3, (byte)1,false,
         controlLocalidades.getCiudades().get(1).getNombre()));
         listaInfantes.adicionarNodoAlInicio(new Infante("Mariana",(short) 4, (byte)5,false,
         controlLocalidades.getCiudades().get(2).getNombre()));

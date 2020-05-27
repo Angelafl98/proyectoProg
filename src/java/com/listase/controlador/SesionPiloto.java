@@ -66,15 +66,11 @@ public class SesionPiloto implements Serializable {
         
         listaPilotos = new ListaPiloto();        
         //LLenado de la bds
-        listaPilotos.adicionarNodo(new Piloto("Cesar ",(short) 1, (byte)26, true,
-                controlLocalidades.getCiudades().get(0).getNombre()));
-        
-        listaPilotos.adicionarNodo(new Piloto("Angela",(short) 2, (byte)21, false,
+        listaPilotos.adicionarNodo(new Piloto("JCamilo34 ",(short) 1, (byte)46, true,
+        controlLocalidades.getCiudades().get(0).getNombre()));
+        listaPilotos.adicionarNodo(new Piloto("JAlfredo98",(short) 2, (byte)35, false,
         controlLocalidades.getCiudades().get(3).getNombre()));
-        listaPilotos.adicionarNodo(new Piloto("Sebastian",(short) 3, (byte)24,true,
-        controlLocalidades.getCiudades().get(1).getNombre()));
-        listaPilotos.adicionarNodoAlInicio(new Piloto("Eduard",(short) 4, (byte)27,true,
-        controlLocalidades.getCiudades().get(2).getNombre()));
+        
         ayudante = listaPilotos.getCabeza();
         piloto = ayudante.getDato();     
         //Me llena el objeto List para la tabla

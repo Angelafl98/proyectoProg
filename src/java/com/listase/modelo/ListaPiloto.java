@@ -228,7 +228,7 @@ public class ListaPiloto implements Serializable{
                 throw new PilotoExcepcion("El código  "+codigo +" no existe en la carrera");
             }
         }
-        throw new PilotoExcepcion("La carrera de motoGP no tiene pilotos inscritos");
+        throw new PilotoExcepcion("La carrera no tiene pilotos ");
     }
     
       public Piloto obtenerPiloto(short codigo ) throws PilotoExcepcion
@@ -254,7 +254,7 @@ public class ListaPiloto implements Serializable{
                 throw new PilotoExcepcion("El código "+codigo +" no existe en la carrera");
             }
         }
-        throw new PilotoExcepcion("La lista de pilotos está vacía");
+        throw new PilotoExcepcion("La lista  está vacía");
     }
     
     

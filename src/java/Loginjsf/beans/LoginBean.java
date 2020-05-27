@@ -20,16 +20,11 @@ import java.io.Serializable;
 @SessionScoped
 public class LoginBean implements Serializable {
 
-    //atributo para panel login oculta o muestra
     private boolean verPanelLogin = false;
-    //atributo para capturar texto en el saludo
     private String textoSaludo = "";
-    //contador saludos
     private short contadorSaludos = 0;
-    //atributo para el correo
     private String correo;
     private String contrasenia;
-    // el atributo controlador para gestionar usuarios y tipos
     private ControladorUsuarios controlUsuarios;
 
     public LoginBean() {
@@ -75,7 +70,6 @@ public class LoginBean implements Serializable {
     public void setVerPanelLogin(boolean verPanelLogin) {
         this.verPanelLogin = verPanelLogin;
     }
-//metodo para cambiar el valor de la variable y ocultar el panel
 
     public void habilitarOdeshabilitarLogin() {
         verPanelLogin = !verPanelLogin;
@@ -96,8 +90,8 @@ public class LoginBean implements Serializable {
             }
 
         } 
-            //no encontro el susario
-            JsfUtil.addErrorMessage("los datos ingresados no corresponden,intente de nuevo ");
+      
+            JsfUtil.addErrorMessage("los datos ingresados no son correctos ");
 
         
 

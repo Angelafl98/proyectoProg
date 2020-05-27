@@ -12,7 +12,7 @@ public class Piloto implements  Serializable{
     
 
     public Piloto() {
-        this.edad=18;
+        this.edad=20;
        
     }    
     

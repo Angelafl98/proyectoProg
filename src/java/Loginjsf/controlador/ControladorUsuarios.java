@@ -36,11 +36,11 @@ public class ControladorUsuarios {
 
     private void iniciarListados() {
         tiposUsuarios = new ArrayList<>();
-        tiposUsuarios.add(new TipoUsuario(1, "administrador"));
+        tiposUsuarios.add(new TipoUsuario(1, "Administrador"));
         
 
         usuarios = new ArrayList<>();
-        usuarios.add(new Usuario("Piloto.com.co", "piloto123", "cesar cardona",
+        usuarios.add(new Usuario("angela@prueba.com", "123456", "",
                 tiposUsuarios.get(0)));
 
        
